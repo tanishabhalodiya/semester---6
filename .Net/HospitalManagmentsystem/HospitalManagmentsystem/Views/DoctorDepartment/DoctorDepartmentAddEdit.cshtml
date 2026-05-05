@@ -1,0 +1,157 @@
+﻿@* @model HospitalManagmentsystem.Models.DoctorDepartmentModel
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-gradient bg-primary text-white text-center py-4 rounded-top">
+            <h4 class="fw-bold mb-0">
+                <i class="bi bi-diagram-3-fill"></i> Doctor Department Add/Edit
+            </h4>
+        </div>
+        <div class="card-body bg-light p-4">
+            <form class="row g-4" method="post" asp-controller="DoctorDepartment" asp-action="DoctorDepartmentAddEdit">
+                <input type="hidden" asp-for="DoctorDepartmentID" />
+
+                <div class="col-md-4">
+                    <label for="doctorId" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-badge"></i> Doctor ID
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="doctorId" asp-for="DoctorID" placeholder="Enter doctor ID" />
+                </div>
+
+                <div class="col-md-4">
+                    <label for="departmentId" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-building"></i> Department ID
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="departmentId" asp-for="DepartmentID" placeholder="Enter department ID" />
+                </div>
+
+                <div class="col-md-4">
+                    <label for="userId" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-circle"></i> User ID
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="userId" asp-for="UserID" placeholder="Enter user ID" />
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-success btn-lg px-5 rounded-3 shadow-sm me-2">
+                        <i class="bi bi-check-circle"></i> Submit
+                    </button>
+                    <button type="reset" class="btn btn-outline-secondary btn-lg px-5 rounded-3 shadow-sm">
+                        <i class="bi bi-x-circle"></i> Reset
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+ *@
+
+@* @model HospitalManagmentsystem.Models.DoctorDepartmentModel
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-gradient bg-primary text-white text-center py-4 rounded-top">
+            <h4 class="fw-bold mb-0">
+                <i class="bi bi-diagram-3-fill"></i> Doctor Department Add/Edit
+            </h4>
+        </div>
+        <div class="card-body bg-light p-4">
+            <form class="row g-4" method="post" asp-controller="DoctorDepartment" asp-action="DoctorDepartmentAddEdit">
+                <input type="hidden" asp-for="DoctorDepartmentID" />
+
+                <div class="col-md-4">
+                    <label for="doctorId" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-badge"></i> Doctor ID
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="doctorId" asp-for="DoctorID" placeholder="Enter doctor ID" />
+                </div>
+
+                <div class="col-md-4">
+                    <label for="departmentId" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-building"></i> Department ID
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="departmentId" asp-for="DepartmentID" placeholder="Enter department ID" />
+                </div>
+
+                <div class="col-md-4">
+                    <label for="userId" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-circle"></i> User ID
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="userId" asp-for="UserID" placeholder="Enter user ID" />
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-success btn-lg px-5 rounded-3 shadow-sm me-2">
+                        <i class="bi bi-check-circle"></i> Submit
+                    </button>
+                    <button type="reset" class="btn btn-outline-secondary btn-lg px-5 rounded-3 shadow-sm">
+                        <i class="bi bi-x-circle"></i> Reset
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> *@
+
+
+
+@model HospitalManagmentsystem.Models.DoctorDepartmentModel
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-gradient bg-primary text-white text-center py-4 rounded-top">
+            <h4 class="fw-bold mb-0">
+                <i class="bi bi-diagram-3-fill"></i> Doctor Department Add/Edit
+            </h4>
+        </div>
+        <div class="card-body bg-light p-4">
+            @using (Html.BeginForm("DoctorDepartmentAddEdit", "DoctorDepartment", FormMethod.Post, new { @class = "row g-3" })){
+                @Html.HiddenFor(m => m.DoctorDepartmentID)
+                <div class="card-body bg-light">
+                    @Html.HiddenFor(m => m.DoctorDepartmentID)
+                    <div class="col-md-6 ">
+                        <label class="form-label fw-semibold text-dark">
+                            <i class="bi bi-person-circle"></i> Doctor
+                        </label>
+                        <select asp-for="DoctorID" asp-items="@(new SelectList(ViewBag.DoctorList, "DoctorID", "DoctorName"))" class="form-control">
+                            <option value="">--Select doctor--</option>
+                        </select>
+                        <span asp-validation-for="DoctorID" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6 mt-3">
+                        <label class="form-label fw-semibold text-dark">
+                            <i class="bi bi-person-circle"></i> Department
+                        </label>
+                        <select asp-for="DepartmentID" asp-items="@(new SelectList(ViewBag.DepartmentList, "DepartmentID", "DepartmentName"))" class="form-control">
+                            <option value="">--Select Department--</option>
+                        </select>
+                        <span asp-validation-for="DepartmentID" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-6 mt-3">
+                        <label class="form-label fw-semibold text-dark">
+                            <i class="bi bi-person-circle"></i> User
+                        </label>
+                        <select asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))" class="form-control">
+                            <option value="">--Select User--</option>
+                        </select>
+                        <span asp-validation-for="UserID" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-success px-4">
+                            <i class="bi bi-check-circle"></i> Submit
+                        </button>
+                        <button type="reset" class="btn btn-outline-secondary px-4">
+                            <i class="bi bi-x-circle"></i> Reset
+                        </button>
+                    </div>
+                </div>
+            } 
+        </div>
+    </div>
+</div>

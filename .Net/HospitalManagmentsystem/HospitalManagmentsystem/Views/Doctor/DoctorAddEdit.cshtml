@@ -1,0 +1,113 @@
+﻿
+@* USING STRONGLY RTPED HTML  *@
+
+@model HospitalManagmentsystem.Models.DoctorModel
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-gradient bg-primary text-white text-center py-4 rounded-top">
+            <h4 class="fw-bold mb-0">
+                <i class="bi bi-hospital-fill"></i> Doctor Add/Edit
+            </h4>
+        </div>
+        <div class="card-body bg-light p-4">
+            <form class="row g-4" method="post" asp-controller="Doctor" asp-action="DoctorAddEdit" enctype="multipart/form-data">
+                <input type="hidden" asp-for="DoctorID" />
+                <input type="hidden" name="ProfileImgSrc" value="@Model.ProfileImgSrc" />
+
+
+                <!-- Doctor Name -->
+                <div class="col-md-6">
+                    <label for="doctorName" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-badge"></i> Doctor Name
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="doctorName" asp-for="Name" placeholder="Enter Doctor Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <!-- Phone -->
+                <div class="col-md-6">
+                    <label for="phone" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-telephone-fill"></i> Phone
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="phone" asp-for="Phone" placeholder="Enter Phone Number" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <!-- Email -->
+                <div class="col-md-6">
+                    <label for="email" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-envelope-fill"></i> Email
+                    </label>
+                    <input type="email" class="form-control rounded-3 shadow-sm border-primary" id="email" asp-for="Email" placeholder="Enter Email Address" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <!-- Qualification -->
+                <div class="col-md-6">
+                    <label for="qualification" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-mortarboard-fill"></i> Qualification
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="qualification" asp-for="Qualification" placeholder="Enter Qualification" />
+                    <span asp-validation-for="Qualification" class="text-danger"></span>
+                </div>
+
+                <!-- Specialization -->
+                <div class="col-md-6">
+                    <label for="specialization" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-heart-pulse-fill"></i> Specialization
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="specialization" asp-for="Specialization" placeholder="Enter Specialization" />
+                    <span asp-validation-for="Specialization" class="text-danger"></span>
+                </div>
+
+                <!-- Is Active -->
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold text-dark d-block">
+                        <i class="bi bi-toggle-on"></i> Is Active
+                    </label>
+                    <div class="form-check form-switch">
+                        <input asp-for="IsActive" class="form-check-input" type="checkbox" role="switch" id="IsActive" />
+                        <label class="form-check-label" for="IsActive">Active</label>
+                    </div>
+                    <span asp-validation-for="IsActive" class="text-danger"></span>
+                </div>
+
+                <!-- User ID -->
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-circle"></i> User
+                    </label>
+                    <select asp-for="UserID" asp-items="@(new SelectList(ViewBag.UserList, "UserID", "UserName"))" class="form-control">
+                        <option value="">--Select User--</option>
+                    </select>
+                    <span asp-validation-for="UserID" class="text-danger"></span>
+                </div>
+
+
+                @* <div>
+                    <label>Profile Image</label>
+                    <input type="file" asp-for="ProfileImg" />
+                    @if (!string.IsNullOrEmpty(Model.ProfileImgSrc))
+                    {
+                        <div>
+                            <img src="@Model.ProfileImgSrc" alt="Profile Image" width="120" style="margin-top:10px;" />
+                        </div>
+                    }
+                </div> *@
+
+
+                <!-- Submit/Reset -->
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-success btn-lg px-5 rounded-3 shadow-sm me-2">
+                        <i class="bi bi-check-circle"></i> Submit
+                    </button>
+                    <button type="reset" class="btn btn-outline-secondary btn-lg px-5 rounded-3 shadow-sm">
+                        <i class="bi bi-x-circle"></i> Reset
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

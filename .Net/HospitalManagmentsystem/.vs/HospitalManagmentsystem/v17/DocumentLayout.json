@@ -1,0 +1,768 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\doctormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\doctormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\doctordepartmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\doctordepartmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\appointment\\appointmentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\appointment\\appointmentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\patient\\patientlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\patient\\patientlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\user\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\appointmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\doctor\\doctorlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\doctor\\doctorlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\appointment\\appointmentaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\appointment\\appointmentaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\helper\\urlencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\helper\\urlencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\doctordepartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\doctordepartmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\doctor\\doctoraddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\doctor\\doctoraddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\doctordepartment\\doctordepartmentaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\doctordepartment\\doctordepartmentaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\user\\useraddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\user\\useraddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\patient\\patientaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\patient\\patientaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\imghelper\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\imghelper\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\wwwroot\\assets\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\wwwroot\\assets\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\department\\departmentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\department\\departmentlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\shared\\_layout_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\shared\\_layout_login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\commonvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\commonvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\employee\\employeeaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\employee\\employeeaddedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\employee\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\employee\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|d:\\tanisha\\3rd year\\sem-5\\.net\\project\\hospitalmanagmentsystem\\hospitalmanagmentsystem\\hospitalmanagmentsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9E3B639-12F9-40ED-ACD3-6802D164EEE5}|HospitalManagmentsystem\\HospitalManagmentsystem.csproj|solutionrelative:hospitalmanagmentsystem\\hospitalmanagmentsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppointmentList.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Appointment\\AppointmentList.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Appointment\\AppointmentList.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Appointment\\AppointmentList.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Appointment\\AppointmentList.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAIBJwEwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T17:29:48.808Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DoctorDepartmentModel.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\DoctorDepartmentModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\DoctorDepartmentModel.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\DoctorDepartmentModel.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\DoctorDepartmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:38:10.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientModel.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\PatientModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\PatientModel.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\PatientModel.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\PatientModel.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T16:12:36.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\appsettings.json",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\appsettings.json",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\appsettings.json",
+              "RelativeToolTip": "HospitalManagmentsystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-07T15:18:44.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\DepartmentController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswI0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:04:39.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\EmployeeModel.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T02:40:56.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\AppointmentController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:04:29.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswCAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T13:15:18.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoctorModel.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\DoctorModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\DoctorModel.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\DoctorModel.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\DoctorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:29:21.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientList.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Patient\\PatientList.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Patient\\PatientList.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Patient\\PatientList.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Patient\\PatientList.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAIBJwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T17:18:23.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppointmentModel.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\AppointmentModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\AppointmentModel.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\AppointmentModel.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\AppointmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T16:10:55.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserList.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\User\\UserList.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\User\\UserList.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\User\\UserList.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\User\\UserList.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAIBJwAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-20T05:49:12.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:05:30.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoctorList.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Doctor\\DoctorList.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Doctor\\DoctorList.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Doctor\\DoctorList.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Doctor\\DoctorList.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T07:36:48.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppointmentAddEdit.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Appointment\\AppointmentAddEdit.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Appointment\\AppointmentAddEdit.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Appointment\\AppointmentAddEdit.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Appointment\\AppointmentAddEdit.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAkwJEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T17:30:20.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-04T17:28:45.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UrlEncryptor.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Helper\\UrlEncryptor.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Helper\\UrlEncryptor.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Helper\\UrlEncryptor.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Helper\\UrlEncryptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T02:51:49.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T16:40:20.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T14:11:32.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DoctorDepartmentController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\DoctorDepartmentController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\DoctorDepartmentController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\DoctorDepartmentController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\DoctorDepartmentController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T11:04:39.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DoctorAddEdit.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Doctor\\DoctorAddEdit.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Doctor\\DoctorAddEdit.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Doctor\\DoctorAddEdit.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Doctor\\DoctorAddEdit.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAIBZwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T12:23:18.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\User\\Login.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T07:37:59.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\UserModel.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\UserModel.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\UserModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAhwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T03:31:38.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DoctorDepartmentAddEdit.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\DoctorDepartment\\DoctorDepartmentAddEdit.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\DoctorDepartment\\DoctorDepartmentAddEdit.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\DoctorDepartment\\DoctorDepartmentAddEdit.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\DoctorDepartment\\DoctorDepartmentAddEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T03:38:20.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\Dashboard.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\Dashboard.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\Dashboard.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\Dashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:38:00.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DepartmentModel.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\DepartmentModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\DepartmentModel.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\DepartmentModel.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\DepartmentModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:38:05.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserAddEdit.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\User\\UserAddEdit.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\User\\UserAddEdit.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\User\\UserAddEdit.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\User\\UserAddEdit.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwEIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T13:31:41.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T17:17:21.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PatientAddEdit.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Patient\\PatientAddEdit.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Patient\\PatientAddEdit.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Patient\\PatientAddEdit.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Patient\\PatientAddEdit.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAIBZwKAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T17:18:50.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T17:27:08.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ImageHelper.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\ImgHelper\\ImageHelper.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\ImgHelper\\ImageHelper.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\ImgHelper\\ImageHelper.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\ImgHelper\\ImageHelper.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T13:08:43.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T13:39:27.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Program.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Program.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T07:52:42.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\wwwroot\\assets\\css\\site.css",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\wwwroot\\assets\\css\\site.css",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\wwwroot\\assets\\css\\site.css",
+              "RelativeToolTip": "HospitalManagmentsystem\\wwwroot\\assets\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-04T18:31:58.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DepartmentList.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Department\\DepartmentList.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Department\\DepartmentList.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Department\\DepartmentList.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Department\\DepartmentList.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAD4v2AAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T17:37:56.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T17:44:47.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout_Login.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Shared\\_Layout_Login.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Shared\\_Layout_Login.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Shared\\_Layout_Login.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Shared\\_Layout_Login.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAIBZwBoAAADWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T07:34:30.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T06:23:02.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T14:30:21.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T03:03:26.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CommonVariable.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\CommonVariable.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\CommonVariable.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\CommonVariable.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\CommonVariable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T07:47:05.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EmployeeAddEdit.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Employee\\EmployeeAddEdit.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Employee\\EmployeeAddEdit.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Employee\\EmployeeAddEdit.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Employee\\EmployeeAddEdit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAIBZwEoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T03:54:09.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EmployeeList.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Employee\\EmployeeList.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Employee\\EmployeeList.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Employee\\EmployeeList.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Employee\\EmployeeList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T03:34:21.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "HospitalManagmentsystem\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:10:30.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "HospitalManagmentsystem\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-02T17:44:53.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "HospitalManagmentsystem.csproj",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\HospitalManagmentsystem.csproj",
+              "RelativeDocumentMoniker": "HospitalManagmentsystem\\HospitalManagmentsystem.csproj",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-5\\.Net\\Project\\HospitalManagmentsystem\\HospitalManagmentsystem\\HospitalManagmentsystem.csproj",
+              "RelativeToolTip": "HospitalManagmentsystem\\HospitalManagmentsystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-02T14:27:23.045Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

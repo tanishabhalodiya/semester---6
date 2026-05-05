@@ -1,0 +1,75 @@
+﻿@model System.Data.DataTable
+@using System.Data
+@using HospitalManagmentsystem.Helper
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="text-dark mb-0">User List</h2>
+        <a asp-controller="User" asp-action="UserFillData" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Add
+        </a>
+    </div>
+    <form method="get" asp-controller="User" asp-action="UserList" class="mb-3 d-flex gap-2">
+        <input type="text" name="searchData" value="@Context.Request.Query["searchData"]" class="form-control w-25" placeholder="Search by name, email, mobile" />
+        <button type="submit" class="btn btn-outline-primary">
+            <i class="bi bi-search"></i> Search
+        </button>
+    </form>
+    <div class="table-responsive shadow rounded-3 border border-primary">
+        <table class="table table-hover table-bordered text-center align-middle mb-0">
+            <thead class="table-primary text-dark">
+                <tr>
+                    
+                    <th>User ID</th>
+                    <th>User Name</th>
+                    <th>Password</th>
+                    <th>Email</th>
+                    <th>MobileNo</th>
+                    <th>IsActive</th>
+                    <th>Created</th>
+                    <th>Modified</th>
+                    <th colspan="2">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (DataRow dr in Model.Rows)
+                {
+                    <tr>
+                        
+                        <td>@dr["UserID"]</td>
+                        <td>@dr["UserName"]</td>
+                        <td>@dr["Password"]</td>
+                        <td>@dr["Email"]</td>
+                        <td>@dr["MobileNo"]</td>
+                        <td>
+                            @if ((bool)dr["IsActive"])
+                            {
+                                <span class="badge bg-success">Yes</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">No</span>
+                            }
+                        </td>
+
+                        <td>@Convert.ToDateTime(dr["Created"]).ToString("dd-MM-yyyy")</td>
+                        <td>@Convert.ToDateTime(dr["Modified"]).ToString("dd-MM-yyyy")</td>
+                        <td class="d-flex gap-1 justify-content-center">
+                         
+                            <form asp-controller="User" asp-action="UserFillData" asp-route-DecUserID="@UrlEncryptor.Encrypt(dr["UserID"].ToString())" >
+                                <button type="submit" class="btn btn-sm btn-outline-primary" title="Edit">
+                                    <i class="bi bi-pencil-square"></i> 
+                                </button>
+                            </form>
+                            <form asp-controller="User" asp-action="UserDelete" asp-route-UserID="@dr["UserID"]" onsubmit="return confirm('Are you sure you want to delete this user?');">
+                                <button type="submit" class="btn btn-sm btn-outline-danger" title="Delete">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

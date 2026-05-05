@@ -1,0 +1,105 @@
+﻿@* @model System.Data.DataTable;
+@using System.Data;
+<h1>Doctor Department List</h1>
+
+<table class="table datatable overflow-y-auto">
+    <thead>
+    <th>DoctorDepartment ID</th>
+    <th>Doctor ID</th>
+    <th>Department ID</th>
+    <th>Created</th>
+    <th>Modified</th>
+    <th>User ID</th>
+    <th>Action</th>
+    
+    </thead>
+    <tbody>
+        @foreach (DataRow dr in Model.Rows)
+        {
+            <tr>
+                <td>@dr["DoctorDepartmentID"]</td>
+                <td>@dr["DoctorID"]</td>
+                <td>@dr["DepartmentID"]</td>
+                <td>@Convert.ToDateTime(@dr["Created"]).ToString("dd-MM-yyyy")</td>
+                <td>@Convert.ToDateTime(@dr["Modified"]).ToString("dd-MM-yyyy")</td>
+                <td>@dr["UserID"]</td>
+                <td>
+
+                    <form asp-controller="DoctorDepartment" asp-action="DoctorDepartmentDelete" asp-route-DoctorDepartmentID="@dr["DoctorDepartmentID"]" onsubmit="return confirm('Are you sure you want to delete this item?');">
+                        <button type="submit" class="btn btn-danger">
+                            <i class="bi bi-trash3"></i>
+                        </button>
+                    </form>
+
+                </td>
+                <td>
+                    
+                    <form asp-controller="DoctorDepartment" asp-action="DoctorDepartmentFillData" asp-route-DoctorDepartmentID="@dr["DoctorDepartmentID"]">
+                        <button type="" class="btn btn-primary">
+                            <i class="bi bi-pencil-square"></i>
+                        </button>
+                    </form>
+
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table> *@
+@model System.Data.DataTable;
+@using System.Data;
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="text-dark mb-0">Doctor Department List</h2>
+        <a asp-controller="DoctorDepartment" asp-action="DoctorDepartmentFillData" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Add
+        </a>
+    </div>
+    <div class="table-responsive shadow rounded-3 border border-primary">
+        <table class="table table-hover table-bordered text-center align-middle mb-0">
+            <thead class="table-primary text-dark">
+                <tr>
+                    
+                    <th>DoctorDept ID</th>
+                    <th>Doctor Name</th>
+                    <th>Department Name</th>
+                    <th>Created</th>
+                    <th>Modified</th>
+                    <th>User Name</th>
+                    <th colspan="2">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (DataRow dr in Model.Rows)
+                {
+                    <tr>
+                        
+                        <td>@dr["DoctorDepartmentID"]</td>
+                        <td>@dr["DoctorName"]</td>
+                        <td>@dr["DepartmentName"]</td>
+                        <td>@Convert.ToDateTime(@dr["Created"]).ToString("dd-MM-yyyy")</td>
+                        <td>@Convert.ToDateTime(@dr["Modified"]).ToString("dd-MM-yyyy")</td>
+                        <td>@dr["UserName"]</td>
+
+                        <td class="text-center">
+                            <form asp-controller="DoctorDepartment" asp-action="DoctorDepartmentFillData" asp-route-DoctorDepartmentID="@dr["DoctorDepartmentID"]">
+                                <button type="submit" class="btn btn-sm btn-outline-primary" title="Edit">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                            </form>
+                        </td>
+                        <td class="text-center">
+                            <form asp-controller="DoctorDepartment" asp-action="DoctorDepartmentDelete" asp-route-DoctorDepartmentID="@dr["DoctorDepartmentID"]"
+                                  onsubmit="return confirm('Are you sure you want to delete this item?');">
+                                <button type="submit" class="btn btn-sm btn-outline-danger" title="Delete">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

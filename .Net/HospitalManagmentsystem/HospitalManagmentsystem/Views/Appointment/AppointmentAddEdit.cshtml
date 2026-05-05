@@ -1,0 +1,171 @@
+﻿@* @model HospitalManagmentsystem.Models.AppointmentModel
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Appointment Add/Edit Form</h5>
+
+        <!-- Vertical Form -->
+        <form class="row g-3" method="post" asp-controller="Appointment" asp-action="AppointmentAddEdit">
+            <input type="hidden" value="@Model.AppointmentID" asp-for="AppointmentID" />
+
+            <div class="col-12">
+                <label for="doctorId" class="form-label">Doctor ID</label>
+                <input type="number" class="form-control" id="doctorId" asp-for="DoctorID" />
+            </div>
+
+            <div class="col-12">
+                <label for="patientId" class="form-label">Patient ID</label>
+                <input type="number" class="form-control" id="patientId" asp-for="PatientID" />
+            </div>
+
+            <div class="col-12">
+                <label for="appointmentDate" class="form-label">Appointment Date</label>
+                <input type="datetime-local" class="form-control" id="appointmentDate" asp-for="AppointmentDate"
+                       value="@Model.AppointmentDate" />
+            </div>
+
+            <div class="col-12">
+                <label for="appointmentStatus" class="form-label">Status</label>
+                <input type="text" class="form-control" id="appointmentStatus" asp-for="AppointmentStatus" />
+            </div>
+
+            <div class="col-12">
+                <label for="description" class="form-label">Description</label>
+                <input type="text" class="form-control" id="description" asp-for="Description" />
+            </div>
+
+            <div class="col-12">
+                <label for="remarks" class="form-label">Special Remarks</label>
+                <input type="text" class="form-control" id="remarks" asp-for="SpecialRemarks" />
+            </div>
+
+            <div class="col-12">
+                <label for="userId" class="form-label">User ID</label>
+                <input type="number" class="form-control" id="userId" asp-for="UserID" />
+            </div>
+
+            <div class="col-12">
+                <label for="amount" class="form-label">Total Consulted Amount</label>
+                <input type="number" step="0.01" class="form-control" id="amount" asp-for="TotalConsultedAmount" />
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+            </div>
+        </form><!-- Vertical Form -->
+
+    </div>
+</div> *@
+@model HospitalManagmentsystem.Models.AppointmentModel
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-gradient bg-primary text-white text-center py-4 rounded-top">
+            <h4 class="fw-bold mb-0">
+                <i class="bi bi-calendar2-check"></i> Appointment Add/Edit
+            </h4>
+        </div>
+        <div class="card-body bg-light p-4">
+            <form class="row g-4" method="post" asp-controller="Appointment" asp-action="AppointmentAddEdit">
+                <input type="hidden" asp-for="AppointmentID" />
+
+                 <div class="col-md-6">
+                    <label class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-circle"></i> Doctor
+                    </label>
+                    <select asp-for="DoctorID" asp-items="ViewBag.DoctorList" class="form-control">
+                        <option value="">--Select Doctor--</option>
+                    </select>
+                    <span asp-validation-for="DoctorID" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-circle"></i> Patient
+                    </label>
+                    <select asp-for="PatientID" asp-items="ViewBag.PatientList" class="form-control">
+                        <option value="">--Select Patient--</option>
+                    </select>
+                    <span asp-validation-for="PatientID" class="text-danger"></span>
+                </div>
+
+                @* <div class="col-md-6">
+                    <label for="patientId" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person"></i> Patient ID
+                    </label>
+                    <select asp-for="PatientID" asp-items="@(new SelectList(ViewBag.PatientList, "PatientID", "Name"))" class="form-control">
+                        <option value="">--Select Patient--</option>
+                    </select>           
+                    <span asp-validation-for="PatientID" class="text-danger"></span>
+                </div>  *@
+
+                <div class="col-md-6">
+                    <label for="appointmentDate" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-calendar-event"></i> Appointment Date
+                    </label>
+                    <input type="date" class="form-control rounded-3 shadow-sm border-primary" id="appointmentDate" asp-for="AppointmentDate" value="@Model.AppointmentDate" />
+                    <span asp-validation-for="AppointmentDate   " class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="appointmentStatus" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-info-circle"></i> Status
+                    </label>
+                    <span asp-validation-for="AppointmentStatus" class="text-danger"></span>
+                    <select class="form-select rounded-3 shadow-sm border-primary" id="appointmentStatus" asp-for="AppointmentStatus">
+                        <option value="">Select Status</option>
+                        <option value="Pending" selected="@(Model.AppointmentStatus == "Pending")">Pending</option>
+                        <option value="Confirmed" selected="@(Model.AppointmentStatus == "Confirmed")">Confirmed</option>
+                        <option value="Completed" selected="@(Model.AppointmentStatus == "Completed")">Completed</option>
+                        <option value="Cancelled" selected="@(Model.AppointmentStatus == "Cancelled")">Cancelled</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="description" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-chat-left-dots"></i> Description
+                    </label>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="description" asp-for="Description" placeholder="Enter description" />
+                </div>
+
+                <div class="col-md-6">
+                    <label for="remarks" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-sticky"></i> Special Remarks
+                    </label>
+                    <input type="text" class="form-control rounded-3 shadow-sm border-primary" id="remarks" asp-for="SpecialRemarks" placeholder="Enter special remarks" />
+                    <span asp-validation-for="SpecialRemarks" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label fw-semibold text-dark">
+                        <i class="bi bi-person-circle"></i> User
+                    </label>
+                    <select asp-for="UserID" asp-items="ViewBag.UserList" class="form-control">
+                        <option value="">--Select User--</option>
+                    </select>
+                    <span asp-validation-for="UserID" class="text-danger"></span>
+                </div> 
+
+                <div class="col-md-6">
+                    <label for="amount" class="form-label fw-semibold text-dark">
+                        <i class="bi bi-currency-rupee"></i> Total Consulted Amount
+                    </label>
+                    <input type="number" step="0.01" class="form-control rounded-3 shadow-sm border-primary" id="amount" asp-for="TotalConsultedAmount" placeholder="Enter amount" />
+                    <span asp-validation-for="TotalConsultedAmount" class="text-danger"></span>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-success btn-lg px-5 rounded-3 shadow-sm me-2">
+                        <i class="bi bi-check-circle"></i> Submit
+                    </button>
+                    <button type="reset" class="btn btn-outline-secondary btn-lg px-5 rounded-3 shadow-sm">
+                        <i class="bi bi-x-circle"></i> Reset
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,378 @@
+﻿@model HospitalManagmentsystem.Models.Dashboard
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="pagetitle">
+    <h1>Dashboard</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-controller="Dashboard" asp-action="Index">Home</a></li>
+            <li class="breadcrumb-item active">Dashboard</li>
+        </ol>
+    </nav>
+</div>
+
+<div class="row g-3">
+
+    <!-- Doctors -->
+    <div class="col-12 col-md-6 col-xl-3">
+        <div class="card info-card">
+            <div class="card-body">
+                <h5 class="card-title">Doctors</h5>
+                <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-heart-pulse"></i>
+                    </div>
+                    <div class="ps-3">
+                        <h6 class="counter" data-target="@Model.DoctorsCount">0</h6>
+                        <span class="text-muted small pt-2 ps-1">Total registered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Users -->
+    <div class="col-12 col-md-6 col-xl-3">
+        <div class="card info-card">
+            <div class="card-body">
+                <h5 class="card-title">Users</h5>
+                <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <div class="ps-3">
+                        <h6 class="counter" data-target="@Model.UsersCount">0</h6>
+                        <span class="text-muted small pt-2 ps-1">System users</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Patients (optional) -->
+    <div class="col-12 col-md-6 col-xl-3">
+        <div class="card info-card">
+            <div class="card-body">
+                <h5 class="card-title">Patients</h5>
+                <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-person-vcard"></i>
+                    </div>
+                    <div class="ps-3">
+                        <h6 class="counter" data-target="@Model.PatientsCount">0</h6>
+                        <span class="text-muted small pt-2 ps-1">Registered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Today's Appointments (optional) -->
+    <div class="col-12 col-md-6 col-xl-3">
+        <div class="card info-card">
+            <div class="card-body">
+                <h5 class="card-title">Today’s Appointments</h5>
+                <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                        <i class="bi bi-calendar-check"></i>
+                    </div>
+                    <div class="ps-3">
+                        <h6 class="counter" data-target="@Model.AppointmentsToday">0</h6>
+                        <span class="text-muted small pt-2 ps-1">Scheduled for today</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row g-3">
+
+    <!-- Unique: Top Specializations -->
+    <div class="col-12 col-xl-6">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Top Specializations</h5>
+                <span class="text-muted small">share of all doctors</span>
+            </div>
+            <div class="card-body">
+                @if (Model.TopSpecializations.Count == 0)
+                {
+                    <div class="text-muted small">No data</div>
+                }
+                else
+                {
+                    var total = Model.TotalDoctorsForPercent == 0 ? 1 : Model.TotalDoctorsForPercent;
+                    foreach (var s in Model.TopSpecializations)
+                    {
+                        var pct = (int)Math.Round((s.Count * 100.0) / total);
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span class="fw-semibold">@s.Specialization</span>
+                                <span class="text-muted">@s.Count (@pct%)</span>
+                            </div>
+                            <div class="progress" style="height:10px;">
+                                <div class="progress-bar" role="progressbar" style="width:@pct%"></div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-12 col-xl-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">Specialization Chart</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="specializationChart" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const ctx = document.getElementById('specializationChart').getContext('2d');
+
+        const data = {
+            labels: ['Cardiology', 'Neurology', 'Pediatrics', 'Orthopedics', 'General'],
+            datasets: [{
+                label: 'Specialization Count',
+                data: [12, 9, 14, 7, 10],
+                backgroundColor: [
+                    '#4154f1', // blue
+                    '#2eca6a', // green
+                    '#ff771d', // orange
+                    '#ff6384', // pink
+                    '#36a2eb'  // light blue
+                ],
+                borderColor: '#fff',
+                borderWidth: 2
+            }]
+        };
+
+        const config = {
+            type: 'pie',
+            data: data,
+            options: {
+                responsive: true,
+                animation: {
+                    duration: 1500,           // total animation time in ms
+                    easing: 'easeOutBounce',  // animation style
+                    animateRotate: true,      // rotate slices
+                    animateScale: true        // scale slices from center
+                },
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#333',
+                            font: { size: 14 }
+                        }
+                    },
+                    tooltip: {
+                        enabled: true,
+                        backgroundColor: '#333',
+                        titleColor: '#fff',
+                        bodyColor: '#fff'
+                    }
+                }
+            }
+        };
+
+        new Chart(ctx, config);
+    </script>
+
+
+    <!-- Unique: Recent Activity -->
+    <!-- Unique: Recent Activity -->
+    <div class="col-12">
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="card-header text-dark rounded-top-4">
+                <h5 class="mb-0"><i class="bi bi-clock-history me-2"></i>Recent Activity</h5>
+            </div>
+            <div class="card-body">
+                <div class="row g-4">
+                    <!-- Recent Doctors -->
+                    <div class="col-12 col-lg-6">
+                        <h6 class="mb-3 text-primary"><i class="bi bi-person-badge me-2"></i>Recent Doctors</h6>
+                        @if (Model.RecentDoctors.Count == 0)
+                        {
+                            <div class="alert alert-light text-center small">No recent doctors</div>
+                        }
+                        else
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-hover align-middle custom-table">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var d in Model.RecentDoctors)
+                                        {
+                                            <tr>
+                                                <td style="max-width:200px; white-space:normal; word-wrap:break-word;">
+                                                    <i class="bi bi-person-circle text-primary me-2"></i>@d.Title
+                                                </td>
+                                                <td><span class="badge bg-primary text-white">@d.CreatedOn:dd-MMM</span></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                    </div>
+
+                    <!-- Recent Users -->
+                    <div class="col-12 col-lg-6">
+                        <h6 class="mb-3 text-success"><i class="bi bi-person-lines-fill me-2"></i>Recent Users</h6>
+                        @if (Model.RecentUsers.Count == 0)
+                        {
+                            <div class="alert alert-light text-center small">No recent users</div>
+                        }
+                        else
+                        {
+                            <div class="table-responsive">
+                                <table class="table table-hover align-middle custom-table">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var u in Model.RecentUsers)
+                                        {
+                                            <tr>
+                                                <td style="max-width:200px; white-space:normal; word-wrap:break-word;">
+                                                    <i class="bi bi-person-check text-success me-2"></i>@u.Title
+                                                </td>
+                                                <td><span class="badge bg-success text-white">@u.CreatedOn:dd-MMM</span></td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <style>
+        .custom-table th {
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        .custom-table td {
+            font-size: 14px;
+            vertical-align: middle;
+        }
+
+        .custom-table tr:hover {
+            background-color: #f8f9fa;
+            transition: 0.2s;
+        }
+    </style>
+
+
+</div>
+
+@* <!-- Quick Actions -->
+<div class="card mt-3">
+    <div class="card-header"><h5 class="mb-0">Quick Actions</h5></div>
+    <div class="card-body d-flex flex-wrap gap-2">
+        <a asp-controller="Doctor" asp-action="DoctorFillData" class="btn btn-primary">
+            <i class="bi bi-person-plus me-1"></i>Add Doctor
+        </a>
+        <a asp-controller="User" asp-action="UserFillData" class="btn btn-outline-primary">
+            <i class="bi bi-person-add me-1"></i>Add User
+        </a>
+        <a asp-controller="Doctor" asp-action="DoctorList" class="btn btn-outline-secondary">
+            <i class="bi bi-list-ul me-1"></i>Doctor List
+        </a>
+        <a asp-controller="User" asp-action="UserList" class="btn btn-outline-secondary">
+            <i class="bi bi-list-check me-1"></i>User List
+        </a>
+    </div>
+</div> *@
+
+<!-- After Quick Actions -->
+<div class="card mt-3">
+    <div class="card-header"><h5 class="mb-0">System Overview</h5></div>
+    <div class="card-body d-flex flex-wrap gap-3">
+        <div class="p-3 text-center" style="flex:1; background:#f8f9fa; border-radius:12px;">
+            <i class="bi bi-activity" style="font-size:30px; color:#4154f1;"></i>
+            <p class="mt-2 mb-0 fw-bold">Active Sessions</p>
+            <p class="mb-0 text-muted">12 Users</p>
+        </div>
+        <div class="p-3 text-center" style="flex:1; background:#f8f9fa; border-radius:12px;">
+            <i class="bi bi-clock-history" style="font-size:30px; color:#ff771d;"></i>
+            <p class="mt-2 mb-0 fw-bold">Avg. Response Time</p>
+            <p class="mb-0 text-muted">1.2 sec</p>
+        </div>
+        <div class="p-3 text-center" style="flex:1; background:#f8f9fa; border-radius:12px;">
+            <i class="bi bi-shield-lock" style="font-size:30px; color:#2eca6a;"></i>
+            <p class="mt-2 mb-0 fw-bold">Security Status</p>
+            <p class="mb-0 text-muted">Good</p>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const counters = document.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                let target = +counter.getAttribute('data-target');
+                let count = 0;
+                let speed = 20;
+                let updateCount = () => {
+                    if (count < target) {
+                        count += Math.ceil(target / 100);
+                        counter.textContent = count;
+                        setTimeout(updateCount, speed);
+                    } else {
+                        counter.textContent = target;
+                    }
+                };
+                updateCount();
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('specializationChart').getContext('2d');
+        var specializationChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: [@string.Join(",", Model.TopSpecializations.Select(s => $"'{s.Specialization}'"))],
+                datasets: [{
+                    data: [@string.Join(",", Model.TopSpecializations.Select(s => s.Count))],
+                    backgroundColor: ['#4154f1', '#2eca6a', '#ff771d', '#ff4081', '#673ab7']
+                }]
+            }
+        });
+    </script>
+}
+
+
