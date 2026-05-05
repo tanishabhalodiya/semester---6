@@ -1,0 +1,1046 @@
+[
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "GetAllMcqs",
+    "RelativePath": "api/admin/mcq",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "AddMcq",
+    "RelativePath": "api/admin/mcq",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Models.AdminMcqDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "GetMcqById",
+    "RelativePath": "api/admin/mcq/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "UpdateMcq",
+    "RelativePath": "api/admin/mcq/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Models.AdminMcqUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "DeleteMcq",
+    "RelativePath": "api/admin/mcq/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "BulkUploadMcqs",
+    "RelativePath": "api/admin/mcq/bulk-upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "skillId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "difficulty",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "DownloadFile",
+    "RelativePath": "api/admin/mcq/download/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "UpdateFile",
+    "RelativePath": "api/admin/mcq/update-file/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AdminMcqController",
+    "Method": "GetUploadedFiles",
+    "RelativePath": "api/admin/mcq/uploaded-files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AiController",
+    "Method": "Generate",
+    "RelativePath": "api/ai/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Models.AiGenerateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AiController",
+    "Method": "GenerateFromFile",
+    "RelativePath": "api/ai/generate-from-file",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Difficulty",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.GeminiModelsController",
+    "Method": "GetAvailableModels",
+    "RelativePath": "api/ai/models",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AiController",
+    "Method": "SaveBulk",
+    "RelativePath": "api/ai/save-bulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mcqs",
+        "Type": "System.Collections.Generic.List\u00601[[Interview_Question_Generator.Models.AiMcqDto, Interview_Question_Generator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AiRequestLogController",
+    "Method": "GetAll",
+    "RelativePath": "api/AiRequestLog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Models.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Models.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.ChatController",
+    "Method": "Chat",
+    "RelativePath": "api/chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Controllers.ChatRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.FeedbackController",
+    "Method": "GetAll",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.FeedbackController",
+    "Method": "Create",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedbackDto",
+        "Type": "Interview_Question_Generator.Models.FeedbackDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.FeedbackController",
+    "Method": "Update",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedbackDto",
+        "Type": "Interview_Question_Generator.Models.FeedbackDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.FeedbackController",
+    "Method": "GetById",
+    "RelativePath": "api/Feedback/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.FeedbackController",
+    "Method": "Delete",
+    "RelativePath": "api/Feedback/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.GeneratedQuestionsController",
+    "Method": "GetAll",
+    "RelativePath": "api/GeneratedQuestions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.GeneratedQuestionsController",
+    "Method": "Create",
+    "RelativePath": "api/GeneratedQuestions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionDto",
+        "Type": "Interview_Question_Generator.Models.GeneratedQuestionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.GeneratedQuestionsController",
+    "Method": "GetById",
+    "RelativePath": "api/GeneratedQuestions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.GeneratedQuestionsController",
+    "Method": "Update",
+    "RelativePath": "api/GeneratedQuestions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionDto",
+        "Type": "Interview_Question_Generator.Models.GeneratedQuestionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.GeneratedQuestionsController",
+    "Method": "Delete",
+    "RelativePath": "api/GeneratedQuestions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.GeneratedQuestionsController",
+    "Method": "FilterQuestions",
+    "RelativePath": "api/GeneratedQuestions/filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skillId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "difficulty",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.QuestionCategoriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/QuestionCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.QuestionCategoriesController",
+    "Method": "Create",
+    "RelativePath": "api/QuestionCategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryDto",
+        "Type": "Interview_Question_Generator.Models.QuestionCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.QuestionCategoriesController",
+    "Method": "Delete",
+    "RelativePath": "api/QuestionCategories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.QuestionCategoriesController",
+    "Method": "Update",
+    "RelativePath": "api/QuestionCategories/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoryDto",
+        "Type": "Interview_Question_Generator.Models.QuestionCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.QuestionRequestsController",
+    "Method": "Get",
+    "RelativePath": "api/QuestionRequests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.QuestionRequestsController",
+    "Method": "Post",
+    "RelativePath": "api/QuestionRequests",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "Interview_Question_Generator.Models.QuestionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.QuestionRequestsController",
+    "Method": "Status",
+    "RelativePath": "api/QuestionRequests/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.RolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.RolesController",
+    "Method": "Create",
+    "RelativePath": "api/Roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleDto",
+        "Type": "Interview_Question_Generator.Models.RoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.RolesController",
+    "Method": "GetById",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.RolesController",
+    "Method": "Update",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "roleDto",
+        "Type": "Interview_Question_Generator.Models.RoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.RolesController",
+    "Method": "Delete",
+    "RelativePath": "api/Roles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.SkillsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Skills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.SkillsController",
+    "Method": "Create",
+    "RelativePath": "api/Skills",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "skillDto",
+        "Type": "Interview_Question_Generator.Models.SkillDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.SkillsController",
+    "Method": "GetById",
+    "RelativePath": "api/Skills/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.SkillsController",
+    "Method": "Update",
+    "RelativePath": "api/Skills/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "skillDto",
+        "Type": "Interview_Question_Generator.Models.SkillDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.SkillsController",
+    "Method": "Delete",
+    "RelativePath": "api/Skills/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.TestSessionsController",
+    "Method": "GetTestSessionById",
+    "RelativePath": "api/TestSessions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.TestSessionsController",
+    "Method": "DeleteTestSession",
+    "RelativePath": "api/TestSessions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.TestSessionsController",
+    "Method": "AssignQuestionsToSession",
+    "RelativePath": "api/TestSessions/admin/assign-questions/{sessionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "questionIds",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.TestSessionsController",
+    "Method": "CreateSession",
+    "RelativePath": "api/TestSessions/admin/create-session",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Models.CreateTestSessionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.TestSessionsController",
+    "Method": "GetAdminSessions",
+    "RelativePath": "api/TestSessions/admin/sessions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.TestSessionsController",
+    "Method": "UpdateSession",
+    "RelativePath": "api/TestSessions/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "testSessionDto",
+        "Type": "Interview_Question_Generator.Models.TestSessionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Interview_Question_Generator.Models.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userDto",
+        "Type": "Interview_Question_Generator.Models.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/Users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "UpdateProfileImage",
+    "RelativePath": "api/Users/profile-image",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Models.UpdateProfileImageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "GetSavedMcqs",
+    "RelativePath": "api/Users/saved",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "GetAvailableSessions",
+    "RelativePath": "api/Users/user/available",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "GetUserResults",
+    "RelativePath": "api/Users/user/results",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "GetSessionQuestions",
+    "RelativePath": "api/Users/user/session/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UsersController",
+    "Method": "SubmitTest",
+    "RelativePath": "api/Users/user/submit/{sessionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Interview_Question_Generator.Models.SubmitTestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UserSavedQuestionsController",
+    "Method": "Create",
+    "RelativePath": "api/UserSavedQuestions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userSavedQuestionDto",
+        "Type": "Interview_Question_Generator.Models.UserSavedQuestionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UserSavedQuestionsController",
+    "Method": "GetById",
+    "RelativePath": "api/UserSavedQuestions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UserSavedQuestionsController",
+    "Method": "Delete",
+    "RelativePath": "api/UserSavedQuestions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Interview_Question_Generator.Controllers.UserSavedQuestionsController",
+    "Method": "GetByUser",
+    "RelativePath": "api/UserSavedQuestions/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

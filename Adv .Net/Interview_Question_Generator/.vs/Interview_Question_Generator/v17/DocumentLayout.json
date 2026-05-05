@@ -1,0 +1,490 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\services\\geminiaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\services\\geminiaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\adminmcqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\adminmcqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\geminimodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\geminimodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\airequestlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\airequestlogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\generatedquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\generatedquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\questioncategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\questioncategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\questionrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\questionrequestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\usersavedquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\usersavedquestionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\testsessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\testsessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\skillscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\models\\testsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\models\\testsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\models\\interviewcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\models\\interviewcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\models\\airequestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\models\\airequestlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\models\\generatedquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\models\\generatedquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\models\\questionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\models\\questionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\models\\usersavedquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\models\\usersavedquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\services\\filetextextractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\services\\filetextextractorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\migrations\\20260222102343_makerequestidnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\migrations\\20260222102343_makerequestidnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|d:\\tanisha\\3rd year\\sem-6\\adv_dot_net\\project\\interview_question_generator\\interview_question_generator\\migrations\\20260315133805_makeuseridnullabletestsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4C2E545-944A-4515-BCCF-62BC9B5D8E0E}|Interview_Question_Generator\\Interview_Question_Generator.csproj|solutionrelative:interview_question_generator\\migrations\\20260315133805_makeuseridnullabletestsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuestionRequestsController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\QuestionRequestsController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\QuestionRequestsController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\QuestionRequestsController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\QuestionRequestsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T03:15:48.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SkillsController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\SkillsController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\SkillsController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\SkillsController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\SkillsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:33:05.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\RolesController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:32:47.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20260315133805_MakeUserIdNullableTestSession.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Migrations\\20260315133805_MakeUserIdNullableTestSession.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Migrations\\20260315133805_MakeUserIdNullableTestSession.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Migrations\\20260315133805_MakeUserIdNullableTestSession.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Migrations\\20260315133805_MakeUserIdNullableTestSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T13:38:06.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAuwLoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T16:41:17.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuestionCategoriesController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\QuestionCategoriesController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\QuestionCategoriesController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\QuestionCategoriesController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\QuestionCategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T16:40:46.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GeminiModelsController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\GeminiModelsController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\GeminiModelsController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\GeminiModelsController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\GeminiModelsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T16:38:03.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FeedbackController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\FeedbackController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\FeedbackController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\FeedbackController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\FeedbackController.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T16:37:15.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeneratedQuestionsController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\GeneratedQuestionsController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\GeneratedQuestionsController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\GeneratedQuestionsController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\GeneratedQuestionsController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowDUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T07:47:05.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Models\\Role.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\Role.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T02:54:53.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\appsettings.json",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\appsettings.json",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\appsettings.json",
+              "RelativeToolTip": "Interview_Question_Generator\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-23T17:51:24.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InterviewContext.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\InterviewContext.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Models\\InterviewContext.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\InterviewContext.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Models\\InterviewContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:03:24.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Models\\User.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\User.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Models\\User.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwBAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T03:30:57.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestSessionsController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\TestSessionsController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\TestSessionsController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\TestSessionsController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\TestSessionsController.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAuwMgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T03:29:06.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T15:44:58.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Program.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Program.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Program.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T14:06:18.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminMcqController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\AdminMcqController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\AdminMcqController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\AdminMcqController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\AdminMcqController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwCgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T07:49:56.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wC8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T15:00:09.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AiController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\AiController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\AiController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\AiController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\AiController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwKIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:58:20.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TestSession.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\TestSession.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Models\\TestSession.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\TestSession.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Models\\TestSession.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T03:35:35.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserSavedQuestionsController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\UserSavedQuestionsController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\UserSavedQuestionsController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\UserSavedQuestionsController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\UserSavedQuestionsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T07:49:44.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeminiAiService.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Services\\GeminiAiService.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Services\\GeminiAiService.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Services\\GeminiAiService.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Services\\GeminiAiService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T06:49:13.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AirequestLog.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\AirequestLog.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Models\\AirequestLog.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\AirequestLog.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Models\\AirequestLog.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAxwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T06:48:45.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AiRequestLogController.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\AiRequestLogController.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Controllers\\AiRequestLogController.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Controllers\\AiRequestLogController.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Controllers\\AiRequestLogController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T15:07:24.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GeneratedQuestion.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\GeneratedQuestion.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Models\\GeneratedQuestion.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\GeneratedQuestion.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Models\\GeneratedQuestion.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T08:00:48.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QuestionRequest.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\QuestionRequest.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Models\\QuestionRequest.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\QuestionRequest.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Models\\QuestionRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T08:33:27.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260222102343_MakeRequestIdNullable.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Migrations\\20260222102343_MakeRequestIdNullable.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Migrations\\20260222102343_MakeRequestIdNullable.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Migrations\\20260222102343_MakeRequestIdNullable.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Migrations\\20260222102343_MakeRequestIdNullable.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:23:43.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserSavedQuestion.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\UserSavedQuestion.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Models\\UserSavedQuestion.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Models\\UserSavedQuestion.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Models\\UserSavedQuestion.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T07:49:39.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FileTextExtractorService.cs",
+              "DocumentMoniker": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Services\\FileTextExtractorService.cs",
+              "RelativeDocumentMoniker": "Interview_Question_Generator\\Services\\FileTextExtractorService.cs",
+              "ToolTip": "D:\\Tanisha\\3rd year\\Sem-6\\Adv_dot_NET\\PROJECT\\Interview_Question_Generator\\Interview_Question_Generator\\Services\\FileTextExtractorService.cs",
+              "RelativeToolTip": "Interview_Question_Generator\\Services\\FileTextExtractorService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvyYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T13:58:27.356Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
