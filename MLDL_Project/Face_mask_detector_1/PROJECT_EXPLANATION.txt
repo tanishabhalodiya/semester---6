@@ -1,0 +1,203 @@
+
+=============================================================================
+     FACE MASK DETECTION SYSTEM — PROJECT EXPLANATION SPEECH (4–5 Minutes)
+=============================================================================
+
+Hello everyone! Today I am going to explain my project — a Face Mask Detection 
+System built using Deep Learning. This project can detect whether a person is 
+wearing a mask correctly, wearing it incorrectly, or not wearing a mask at all — 
+and it works on images, videos, and even live webcam feeds.
+
+Let me walk you through the entire project step by step.
+
+─────────────────────────────────────────────────────────────────────────
+SECTION 1 — PROJECT OVERVIEW  (~45 seconds)
+─────────────────────────────────────────────────────────────────────────
+
+So, the idea behind this project is simple — especially after COVID-19, face 
+masks became essential, and we needed an automated way to check if people are 
+wearing their masks properly. My system uses a Convolutional Neural Network — or 
+CNN — to classify faces into three categories:
+
+  1. With Mask — the person is wearing the mask correctly
+  2. Without Mask — the person is not wearing any mask
+  3. Incorrect Mask — the mask is worn but not covering the nose or mouth properly
+
+The project has three major parts:
+  • Dataset Preparation — collecting and organizing the training data
+  • Model Training — building and training the CNN model
+  • Detection & Deployment — using the trained model on real-world inputs 
+    through a full-stack web application
+
+─────────────────────────────────────────────────────────────────────────
+SECTION 2 — DATASET PREPARATION  (~45 seconds)
+─────────────────────────────────────────────────────────────────────────
+
+For training the model, I used a publicly available face mask dataset that comes 
+with images and XML annotation files in Pascal VOC format. Each XML file contains 
+the labels and bounding box coordinates for every face in the image.
+
+I wrote a Python script called "prepare_dataset.py" to process this data. Here's 
+what it does:
+
+  1. It reads each XML annotation file and extracts the bounding box coordinates 
+     and the class label — "with_mask", "without_mask", or "mask_weared_incorrect".
+
+  2. It then crops each individual face from the original image using those 
+     coordinates and saves it into the correct category folder.
+
+  3. The data is split into three sets:
+       • 70% for Training
+       • 15% for Validation
+       • 15% for Testing
+
+  4. This gives us a clean, organized folder structure like:
+       dataset/train/with_mask/
+       dataset/train/without_mask/
+       dataset/train/incorrect_mask/
+     ...and the same for validation and test folders.
+
+─────────────────────────────────────────────────────────────────────────
+SECTION 3 — MODEL ARCHITECTURE & TRAINING  (~1 minute)
+─────────────────────────────────────────────────────────────────────────
+
+Now, let me explain the brain of this project — the CNN model. I built a custom 
+CNN using PyTorch. The file is called "train_model.py".
+
+The model has four convolutional blocks. Each block contains:
+  • A Convolutional layer — to extract features like edges, textures, and shapes
+  • Batch Normalization — to stabilize and speed up training
+  • ReLU Activation — to add non-linearity
+  • Max Pooling — to reduce the spatial dimensions
+  • Dropout — to prevent overfitting
+
+After the four convolutional blocks, the features are flattened and passed through 
+two fully connected layers that output predictions for our 3 classes.
+
+For training, I used these settings:
+  • Image size: 224 x 224 pixels
+  • Batch size: 32
+  • Optimizer: Adam with a learning rate of 0.001
+  • Loss function: CrossEntropyLoss
+  • Epochs: 20
+
+I also applied Data Augmentation during training — like random horizontal flips, 
+rotations, and color jitter — to make the model more robust.
+
+The training script tracks both training and validation loss and accuracy at each 
+epoch, and automatically saves the best model based on the lowest validation loss. 
+After training, it evaluates the model on the test set and generates a 
+classification report and confusion matrix. It also saves a "training_curves.png" 
+graph showing the loss and accuracy trends.
+
+─────────────────────────────────────────────────────────────────────────
+SECTION 4 — DETECTION / INFERENCE  (~45 seconds)
+─────────────────────────────────────────────────────────────────────────
+
+Now comes the fun part — actually using the model! The file "detect_mask.py" 
+handles all the detection.
+
+The detection process works in two stages:
+
+  STAGE 1 — Face Detection:
+    I use OpenCV's pre-trained ResNet SSD face detector. This is a deep learning 
+    based face detector that comes with two files — "deploy.prototxt" (the model 
+    architecture) and "res10_300x300_ssd_iter_140000.caffemodel" (the pre-trained 
+    weights). It scans the entire image and finds all the faces with bounding boxes.
+
+  STAGE 2 — Mask Classification:
+    Once a face is detected, that face region is cropped, resized to 224x224, and 
+    passed through our trained CNN model. The model predicts one of the three 
+    classes and a confidence score.
+
+The results are displayed with color-coded bounding boxes:
+  • Green — With Mask
+  • Red — Without Mask
+  • Orange — Incorrect Mask
+
+This script supports three modes:
+  • --image : Run detection on a single image
+  • --video : Process an entire video file frame by frame
+  • --webcam : Real-time detection using your computer's camera
+
+─────────────────────────────────────────────────────────────────────────
+SECTION 5 — FULL-STACK WEB APPLICATION  (~1 minute)
+─────────────────────────────────────────────────────────────────────────
+
+To make this project more professional and user-friendly, I built a complete 
+full-stack web application.
+
+BACKEND — FastAPI (app.py):
+  The backend is built with FastAPI — a modern, fast Python web framework. It 
+  provides three API endpoints:
+
+  1. POST /api/detect/image — Upload an image and get back the detection results 
+     as JSON with class names, confidence scores, and bounding box coordinates.
+
+  2. POST /api/detect/video — Upload a video file; the server samples one frame 
+     per second, runs detection, and returns the total count of each mask category.
+
+  3. WebSocket /ws/detect/stream — For real-time live detection. The React 
+     frontend sends webcam frames over a WebSocket connection, and the server 
+     sends back detection results instantly.
+
+FRONTEND — React + Vite:
+  The frontend is built with React using Vite as the build tool. It has a clean, 
+  modern interface with multiple pages:
+
+  • Home Page — An overview of the project with key statistics and features.
+  • Upload Detection Page — Users can upload images or videos and see detection 
+    results with bounding boxes drawn directly on the image.
+  • Live Detection Page — Uses the browser's webcam and WebSocket connection to 
+    show real-time mask detection with live bounding boxes.
+  • Training Info Page — Displays the model architecture, training details, and 
+    performance metrics.
+  • Analytics Page — Shows detection statistics and trends.
+
+  The frontend communicates with the backend through REST APIs and WebSockets, 
+  making the whole system responsive and interactive.
+
+─────────────────────────────────────────────────────────────────────────
+SECTION 6 — TECHNOLOGIES USED  (~20 seconds)
+─────────────────────────────────────────────────────────────────────────
+
+Here is a quick summary of all the technologies I used:
+
+  • Python — Main programming language
+  • PyTorch — For building and training the CNN model
+  • OpenCV — For image processing and face detection
+  • NumPy — For numerical computations
+  • FastAPI — For the backend REST API and WebSocket server
+  • React.js — For the frontend user interface
+  • Vite — As the frontend build tool
+  • Matplotlib — For plotting training curves
+  • scikit-learn — For generating the classification report
+
+─────────────────────────────────────────────────────────────────────────
+SECTION 7 — CONCLUSION  (~20 seconds)
+─────────────────────────────────────────────────────────────────────────
+
+To summarize, this project covers the complete machine learning pipeline — from 
+raw data preparation, to model training, to real-world deployment through a 
+full-stack web application. The system can detect face masks in real-time using a 
+webcam, process uploaded images and videos, and present results through a clean, 
+interactive web interface.
+
+This project demonstrates practical skills in Deep Learning, Computer Vision, 
+Backend API development, and Frontend web development — making it a comprehensive 
+end-to-end AI project.
+
+Thank you for watching!
+
+=============================================================================
+                          END OF SPEECH SCRIPT
+=============================================================================
+
+TOTAL ESTIMATED TIME: ~4 to 5 minutes (depending on your speaking pace)
+
+TIPS FOR RECORDING:
+  • Speak slowly and clearly — don't rush
+  • Show the actual project running on screen while you speak
+  • Open each Python file briefly when explaining that section
+  • Show a demo of the detection working at the end
+  • Keep a calm, confident tone throughout

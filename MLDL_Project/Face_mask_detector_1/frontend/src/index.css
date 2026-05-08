@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-500: #d85bff;
+  --color-brand-600: #b044d6;
+  --color-brand-900: #2a0a38;
+  
+  --color-slate-900: #0a0a0a;
+  --color-slate-800: #141414;
+  --color-slate-700: #262626;
+  
+  --color-status-success: #22c55e;
+  --color-status-error: #ef4444;
+  --color-status-warning: #f59e0b;
+}
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+  color: #f8fafc;
+  background-color: #0a0a0a;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #0a0a0a;
+  color: white;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Background Grid Pattern */
+.bg-grid-pattern {
+  background-size: 80px 80px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  /* Removed fading mask so the grid covers the entire page evenly */
+}
+
+/* Ambient Purple Bottom Glow for Dashboard */
+.bg-ambient-glow {
+  position: fixed; /* Changed from absolute to fixed so it follows scroll */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at 50% 50%, rgba(157, 78, 221, 0.08) 0%, rgba(10, 10, 10, 0) 60%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Custom UI Elements */
+.glow-button {
+  box-shadow: 0 0 20px rgba(216, 91, 255, 0.4);
+  transition: all 0.3s ease;
+}
+.glow-button:hover {
+  box-shadow: 0 0 30px rgba(216, 91, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.glass-panel {
+  background: rgba(20, 20, 20, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Dashboard UI specifics */
+.dashboard-card {
+  background: linear-gradient(145deg, rgba(38, 38, 38, 0.6) 0%, rgba(20, 20, 20, 0.8) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+}
+
+/* Base tailwind hiding utilities config if required */
+@layer utilities {
+  .text-proxima {
+    color: var(--color-brand-500);
+  }
+}
